@@ -16,3 +16,7 @@ def line(array)
     puts que
   end
 end
+
+def take_a_number 
+  
+end
