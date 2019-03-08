@@ -6,7 +6,8 @@ def line(array)
   i = 0
   while i < array.length
     que += "#{1+ i}. "
-    que += array[i] + " "
+    que += array[i]
+    que += " " unless i == array.length
     i += 1
   end
   if array.length == 0 
