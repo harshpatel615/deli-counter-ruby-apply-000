@@ -20,6 +20,6 @@ end
 def take_a_number(katz_deli, name) 
   katz_deli << name
   katz_deli.each_with_index do |ele, i|
-    puts "Welcome, Ada. You are number #{i} in line."
+    puts "Welcome, Ada. You are number #{i + 1} in line."
   end
 end
