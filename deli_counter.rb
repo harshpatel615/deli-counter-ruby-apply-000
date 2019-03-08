@@ -15,5 +15,4 @@ def line(array)
   else
     puts que
   end
-  
 end
