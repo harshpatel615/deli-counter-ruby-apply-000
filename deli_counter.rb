@@ -19,7 +19,7 @@ end
 
 def take_a_number(katz_deli, name) 
   katz_deli << name
-  i = 1
-  while i < katz_deli.length
-    
+  katz_deli.each_with_index do {ele, i}
+    puts "Welcome, Ada. You are number #{i} in line."
+  end
 end
